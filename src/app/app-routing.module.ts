@@ -19,6 +19,26 @@ const routes: Routes = [
     path: 'register',
     loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
   },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
+  },
+  {
+    path: 'chat',
+    loadChildren: () => import('./chat/chat.module').then( m => m.ChatPageModule)
+  },
+  {
+    path: 'profile',
+    loadChildren: () => import('./profile/profile.module').then( m => m.ProfilePageModule)
+  },
+  {
+    path: 'find',
+    loadChildren: () => import('./find/find.module').then( m => m.FindPageModule)
+  },
+  {
+    path: 'resume',
+    loadChildren: () => import('./resume/resume.module').then( m => m.ResumePageModule)
+  },
 ];
 
 @NgModule({
