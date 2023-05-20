@@ -1,13 +1,61 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>profile</ion-title>
+<ion-header>
+  <ion-toolbar >
+    <ion-title class = "profileText" text-center>Profile</ion-title>
+    <ion-buttons slot="end">
+      <ion-button fill="clear" ><ion-icon color="dark" name="log-out-outline"></ion-icon></ion-button>
+      </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">profile</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid class="main-header">
+    <div align="center">
+      <ion-avatar (click)="uploadImage()">
+        <img src="../../assets/addimage.png" *ngIf="this.image == null || this.image == undefined"/>
+        <img [src]="this.image" *ngIf="this.image"/>
+      </ion-avatar>
+    </div>
+  </ion-grid>
+
+  
+  <ion-row class="ion-padding-horizontal">
+    <ion-col size="6">
+      <ion-item lines="none" class="ion-text-center">
+        <ion-label>
+          <p class = "writingFont"> {{this.firstName}} {{this.lastName}}</p>
+        </ion-label>
+      </ion-item>
+    </ion-col>
+  </ion-row>
+
+  <ion-card class="personalBio">
+    <ion-card-header>
+      <ion-card-title class = "writingFont">Bio</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-textarea [(ngModel)]="bio" [value]="this.bio">
+
+      </ion-textarea>
+      <ion-button expand="block" (click)="updateBio()">update</ion-button>
+    </ion-card-content>
+
+  </ion-card>
+
+
+  <ion-card >
+    <ion-card-header>
+      <ion-card-title class = "writingFont"> Jobs</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-input>
+
+      </ion-input>
+    </ion-card-content>
+
+
+
+  </ion-card>
+  
 </ion-content>
