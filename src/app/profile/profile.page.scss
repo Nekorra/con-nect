@@ -4,7 +4,7 @@ ion-content {
         width: 120%;
         background: linear-gradient(274.42deg, #7863FF 0%, #5940f8 124.45%);
         margin-left: -35px;
-        margin-top: -5px;
+        margin-top: 50px;
         div {
             transform: translateY(2vh);
             ion-avatar {
@@ -56,27 +56,30 @@ ion-content {
 
     .profileText{
 		color: #1D1617;
-		@font-face {
-		  font-family: Poppins;
-		  src: url(../../assets/Poppins.zip);
-		}
-		font-style: normal;
-		font-weight: 400;
-		font-size: 16px;
+		font-family: Poppins-Regular;
+		font-weight: 500;
+		font-size: 25px;
 		line-height: 24px;
 		position: absolute;
-		width: 80px;
-		height: 24px;
-		left: 160px;
-		top: 200px;
+        left: 25px;
+        padding-top: 15px;
 	  }
+
+    .logoutButton{
+        position: absolute;
+        left: 340px;
+        padding-top: 5px;
+        height: 40px;
+    }
 
     .writingFont{
         color: #1D1617;
-		@font-face {
-		  font-family: Poppins;
-		  src: url(../../assets/Poppins.zip);
-		}
+		font-family: Poppins-Regular;
+    }
+
+    .updateText{
+        font-family: Poppins-Regular;
+        font-weight: 500;
     }
 
     .personalBio{

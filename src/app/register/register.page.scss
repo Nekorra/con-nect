@@ -12,10 +12,7 @@ ion-content.background{
 
   .createAccount{
     color: #1D1617;
-    @font-face {
-      font-family: Poppins;
-      src: url(../../assets/Poppins.zip);
-    }
+    font-family: Poppins-Regular;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -29,10 +26,7 @@ ion-content.background{
 
   .heyThere{
     color: #1D1617;
-    @font-face {
-      font-family: Poppins;
-      src: url(../../assets/Poppins.zip);
-    }
+    font-family: Poppins-Regular;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -54,10 +48,7 @@ ion-content.background{
   .inputFont{
     color: #7B6F72;
     text-indent: 50px;
-    @font-face {
-      font-family: Poppins;
-      src: url(../../assets/Poppins.zip);
-    }
+    font-family: Poppins-Regular;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -66,10 +57,7 @@ ion-content.background{
   }
   
   .whoButton{
-    @font-face {
-      font-family: Poppins;
-      src: url(../../assets/Poppins.zip);
-    }
+    font-family: Poppins-Regular;
     color: white;
     font-style: normal;
     font-weight: 400;
@@ -83,10 +71,7 @@ ion-content.background{
 
   .useText{
     color: #ADA4A5;
-    @font-face {
-      font-family: Poppins;
-      src: url(../../assets/Poppins.zip);
-    }
+    font-family: Poppins-Regular;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -131,10 +116,7 @@ ion-content.background{
   }
 
   .buttonfont{
-    @font-face {
-      font-family: Poppins;
-      src: url(../../assets/Poppins.zip);
-    }
+    font-family: Poppins-Regular;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -145,10 +127,7 @@ ion-content.background{
 
   .registerText1{
     color: #1D1617;
-    @font-face {
-      font-family: Poppins;
-      src: url(../../assets/Poppins.zip);
-    }
+    font-family: Poppins-Regular;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -156,7 +135,7 @@ ion-content.background{
     position: absolute;
     width: 192px;
     height: 21px;
-    left: 81px;
+    left: 94px;
     top: 751px;
   }
 
@@ -164,10 +143,7 @@ ion-content.background{
     background-image: linear-gradient(274.42deg, #C58BF2 0%, #EEA4CE 124.45%);
     background-clip: text;
     color: transparent;
-    @font-face {
-      font-family: Poppins;
-      src: url(../../assets/Poppins.zip);
-    }
+    font-family: Poppins-Regular;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
